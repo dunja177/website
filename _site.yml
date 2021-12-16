@@ -1,0 +1,26 @@
+name: "my-website"
+navbar:
+  title: "Uvod u verovatnoću i statistiku za osnovnu školu"
+  left:
+    - text: "O kursu"
+      href: index.html
+    - text: "Uvod"
+      href: uvod.html
+    - text: "Eksperiment i ishod eksperimenta"
+      href: eks.html
+    - text: "Očekivanje"
+      href: ocek.html
+    - text: "Relacije na skupovima"
+      href: rel.html
+    - text: "Uslovna verovatoća"
+      href: usl.html
+    - text: "Populacija i uzorak. Reprezentativan uzorak."
+      href: uz.html
+    - text: "Grafičko predstavljanje podataka"
+      href: graf.html
+      
+output:
+   html_document:
+    theme: cosmo
+    highlight: textmate
+    
